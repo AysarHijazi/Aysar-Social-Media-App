@@ -1,4 +1,3 @@
-# Aysar-Social-Media-App
 Aysar Social Media App Android java
 ه
 This application was designed by the Jordanian programmer, Ayser Hijazi,
