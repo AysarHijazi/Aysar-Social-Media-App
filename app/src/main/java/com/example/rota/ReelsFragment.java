@@ -47,19 +47,7 @@ public class ReelsFragment extends Fragment {
 
     }
 
-    @Override
-    public void setUserVisibleHint(boolean isVisibleToUser) {
-        super.setUserVisibleHint(isVisibleToUser);
-        if (isVisibleToUser) {
-            if (adapter != null) {
-                adapter.startVideo();
-            }
-        } else {
-            if (adapter != null) {
-                adapter.stopVideo();
-            }
-        }
-    }
+
 
 
     @Override

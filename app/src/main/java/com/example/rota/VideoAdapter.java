@@ -91,16 +91,6 @@ public class VideoAdapter extends FirebaseRecyclerAdapter<VideoModel,VideoAdapte
             });
         }
     }
-    void startVideo() {
-        if (mediaPlayer != null && !mediaPlayer.isPlaying()) {
-            mediaPlayer.start();
-        }
-    }
 
-    void stopVideo() {
-        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
-            mediaPlayer.pause();
-        }
-    }
 }
 
